@@ -1,0 +1,32 @@
+.doctor-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the children horizontally */
+    width: 95%; /* Adjusted from 80% to 95% */
+    margin: 20px auto; /* Centers the container on the page */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow for depth */
+}
+
+
+/* Styles for the tabs */
+.doctor-list-container .MuiTabs-root {
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px; /* Added margin to separate from dropdown */
+}
+
+.doctor-list-container .MuiTab-root {
+    flex-grow: 1;
+    min-height: 30px; /* Adjusted the height directly */
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    max-width: none; /* This will allow the tabs to stretch more */
+}
+
+.specialty-dropdown {
+    width: 250px;
+    margin-top: 20px; /* Added margin to separate from tabs */
+}

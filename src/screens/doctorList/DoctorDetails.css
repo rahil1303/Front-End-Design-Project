@@ -1,0 +1,69 @@
+.doctor-card {
+    width: 90%; /* Adjusted width */
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.doctor-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-name {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.speciality, .rating-text {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.rating-icon {
+    color: rgb(232, 183, 9);
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.doctor-card .MuiButton-root {
+    margin: 10px 5px;
+}
+
+/* Updated styles for the View Details button */
+.doctor-card .MuiButton-outlinedPrimary.view-details-btn {
+    color: white;
+    background-color: green;
+    border-color: green;
+    transition: background-color 0.3s;
+}
+
+.doctor-card .MuiButton-outlinedPrimary.view-details-btn:hover {
+    background-color: darkgreen;
+}
+
+.specialty-dropdown {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.specialty-text, .rating-text {
+    color: black !important;
+}
+
+.purple-stripe {
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center; /* To center the text */
+}
+
+.purple-heading {
+    color: purple;
+}
+

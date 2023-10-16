@@ -1,0 +1,51 @@
+.header {
+    background-color: purple !important;
+    height: 70px !important;
+    padding: 11px !important;
+}
+
+.logo {
+    background-color: #ff7f7f !important;
+    height: 35px !important;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0; /* Rounded corners at the top */
+}
+
+/* Style for the Tabs container */
+.MuiTabs-root {
+    background-color: white;
+    border-radius: 8px 8px 0 0; /* Rounded corners at the top */
+}
+
+/* Style for the individual Tab */
+.MuiTab-root {
+    color: black; /* Text color for the tabs */
+}
+
+/* Style for the selected Tab */
+.Mui-selected {
+    color: purple; /* Text color for the selected tab */
+}
